@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace GLMS_ST10157545.test
 {
     public class UnitTest1
