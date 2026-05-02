@@ -1,4 +1,4 @@
-﻿// ── GLMS Site Scripts ────────────────────────────────────────────────────────
+﻿
 
 // Auto-dismiss success alerts after 4 seconds
 document.addEventListener('DOMContentLoaded', function () {
