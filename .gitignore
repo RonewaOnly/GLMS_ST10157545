@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Microsoft Visual Studio Installer projects
+appsettings.Development.json
