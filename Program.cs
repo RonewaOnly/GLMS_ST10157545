@@ -24,7 +24,7 @@ namespace GLMS_ST10157545
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthorization(); //
 
             app.MapControllerRoute(
                 name: "default",
