@@ -67,9 +67,13 @@ namespace GLMS_ST10157545.Services
         {
             if (rate <= 0)
                 throw new ArgumentException("Exchange rate must be greater than zero.", nameof(rate));
+
             if (usdAmount < 0)
                 throw new ArgumentException("USD amount cannot be negative.", nameof(usdAmount));
-            return Math.Round(usdAmount * rate, 2);
+
+            decimal result = usdAmount * rate;
+
+            return Math.Round(result, 2, MidpointRounding.AwayFromZero);
         }
         //  Private response shape matching open.er-api.com 
         private class OpenErApiResponse
